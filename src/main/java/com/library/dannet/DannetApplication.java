@@ -39,7 +39,8 @@ public class DannetApplication {
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		if(br==null)
 		{
-			System.out.println("do nothing");
+			System.out.println("do nothingf ");
+			System.out.println("testing git");
 		}
 		else
 		{
