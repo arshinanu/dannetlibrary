@@ -132,7 +132,8 @@ public class LibraryController {
 	@RequestMapping(value="/login", method = RequestMethod.POST)
 	 public String showMyLogin(@Valid @ModelAttribute("login") Login login,BindingResult result,  ModelMap model,HttpSession session ){
 
-			System.out.println("entering login");
+			System.out.println("entering loginhhh");
+			System.out.println("entering loginhhh1ss");
 			/*if(result.hasErrors())
 			{
 				System.out.println(result.getErrorCount());
